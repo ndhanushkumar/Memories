@@ -1,0 +1,95 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  width: 80vw;
+}
+.newMemories {
+  display: flex;
+  flex: 0.25;
+  flex-direction: column;
+  background-color: white;
+  width: 400px;
+  height: 550px;
+  border-radius: 20px;
+  margin: 30px;
+}
+.memories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: 0.65;
+}
+
+.memories_page {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  margin: 30px;
+  border-radius: 20px;
+  margin-right: 20px;
+  
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+
+.edit_memory {
+  margin-right: 20px;
+}
+.top {
+  width: 300px;
+  height: 50%;
+  /* background-image: url("https://media.cntraveler.com/photos/57fea9ec8584f8cd20e65f15/16:9/w_2580,c_limit/Aerial-One&OnlyReethiRah-Maldives-CRHotel.jpg"); */
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.bottom {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.bottom > h2 {
+  margin-top: 10px;
+}
+.bottom > p {
+  margin-bottom: 10px;
+}
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.tags {
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+}
+.memories_form {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input {
+  margin-bottom: 10px;
+}
+.clear_button {
+  background-color: red !important;
+  margin-top: 10px;
+}

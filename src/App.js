@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Memories from './Memories';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="title"><h1>Memories</h1>
+      <img src="https://www.howtogeek.com/wp-content/uploads/2021/07/womans-hand-holding-photograph-beach.jpg?width=1198&trim=1,1&bg-color=000&pad=1,1" alt=""/></div>
+     
+     <Memories/>
+     
+     
     </div>
   );
 }
